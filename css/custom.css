@@ -1,11 +1,26 @@
 @charset "utf-8";
-
+:root{
+    --custom-color1:#7E8C24;
+}
 .bg-greenbean {
     background: #7E8C24;
 }
 
-.banner-text {
-    font-size: 1rem;
+.nav-greenbean {    
+    background: #7E8C24;
+}
+
+.nav-pills .nav-link {
+    background: #dcdcdc;
+}
+
+.nav {
+    gap:1rem;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #7E8C24;
 }
 #topNav {
     font-size: .875rem;
@@ -34,4 +49,35 @@
 .main-logo img{
     width : 100%;
     object-fit: cover;
+}
+
+.main-title {
+    color: #959595;
+    font-size: 2rem;
+}
+.sub-title {
+    font-size: 3rem;
+}
+
+.bg-ship{
+    background: #959595;
+    color: rgb(0, 0, 0);
+}
+.bg-rgba{
+   background: #959595;
+   color: white;
+}
+
+.move-top {
+    background: darkgray;
+    color:white    
+}
+.news {
+    color: white;
+    font-size: 1rem;
+}
+.te {
+    color: white;
+    background: red;
+    border-color: white;
 }
