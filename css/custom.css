@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+.bg-greenbean {
+    background: #7E8C24;
+}
+
+.banner-text {
+    font-size: 1rem;
+}
+#topNav {
+    font-size: .875rem;
+}
+
+@media screen and (max-width: 576px) {
+    .banner-text {
+        font-size: 1rem;
+    }
+    
+}
+
+
+.only-pc a {
+    color: inherit;
+   
+}
+.only-pc > li {
+    margin: 0.5rem;
+}
+
+.main-logo {
+    max-width: 320px;
+}
+
+.main-logo img{
+    width : 100%;
+    object-fit: cover;
+}
